@@ -8,10 +8,10 @@ munging: TRUE
 logging: FALSE
 logging_level: INFO
 load_libraries: TRUE
-libraries: reshape2, plyr, tidyverse, stringr, lubridate, here, ggplot2, papaja, citr, rbbt
-as_factors: TRUE
+libraries: reshape2, plyr, tidyverse, stringr, lubridate, here, ggplot2, papaja, citr, rbbt, caret, e1071, janitor, COVID19
+as_factors: FALSE
 tables_type: tibble
 attach_internal_libraries: FALSE
-cache_loaded_data:  TRUE
+cache_loaded_data: TRUE
 sticky_variables: NONE
 underscore_variables: TRUE
