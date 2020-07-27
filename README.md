@@ -2,9 +2,11 @@
 
 This repository is a work in progress for MIS 545 - Big Data. It looks at the COVID-19 data using the COVID19 package.
 
-It uses the R package ProjectTemplate and is mainly written in TidyVerse grammar. The project will explore a few different things:
+It uses the R package ProjectTemplate and is mainly written in TidyVerse grammar. 
 
-1. ...
-1. ...
-1. ...
+Currently am working on:
+
+1. Comparing case increase to lockdown type and date
+1. Examining cancelled events and transport closings to date of lockdown
+1. Doing other exploratory work
 
