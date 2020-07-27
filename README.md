@@ -10,3 +10,13 @@ Currently am working on:
 1. Examining cancelled events and transport closings to date of lockdown
 1. Doing other exploratory work
 
+You can explore the project by doing the following:
+
+1. Download the repo into a folder
+1. Run the Rproj file
+1. Make sure you have the `ProjectTemplate` package installed.
+1. Run the following in the console:
+
+```library('ProjectTemplate')
+load.project()
+```

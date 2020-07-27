@@ -10,3 +10,5 @@ states <- covid19(level = 2)
 
 # Get counties in US
 counties <- covid19("US", level = 3)
+
+# Note that the lockdown.csv comes from https://www.kaggle.com/jcyzag/covid19-lockdown-dates-by-country and needs to be redownloaded to get the most recent data. Unsure how to programmatically scrape this data

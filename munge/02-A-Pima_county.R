@@ -7,6 +7,7 @@ arizona <- counties %>% filter(
 # Create a snapshot of today in Pima county
 today_in_pima_county <- arizona %>% filter(
   administrative_area_level_3 == "Pima") %>%
-  filter(date == max(date))
+  filter(date == max(date)) %>% 
+  select(id, date, confirmed, deaths, population:contact_tracing)
 
 glimpse(today_in_pima_county)
