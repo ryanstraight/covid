@@ -17,6 +17,7 @@ You can explore the project by doing the following:
 1. Make sure you have the `ProjectTemplate` package installed.
 1. Run the following in the console:
 
-```library('ProjectTemplate')
+```
+library('ProjectTemplate')
 load.project()
 ```
