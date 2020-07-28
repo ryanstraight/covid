@@ -27,5 +27,6 @@ Notes:
 + Adding governors and their political parties to explore as an outcome based on COVID-19 state predictors like school closings, etc
   + https://raw.githubusercontent.com/CivilServiceUSA/us-governors/master/us-governors/data/us-governors.csv
 + Adding code chunks from external R scripts into an Rmd file: https://bookdown.org/yihui/rmarkdown-cookbook/read-chunk.html
-+ R code for figuring out the entropy: `-((2/4)*log2(2/4) + (2/4)*log2(2/4))`
++ R code for figuring out the parent entropy: `-sum(((2/7)*log2(2/7)) + ((3/7)*log2(3/7)) + ((2/7)*log2(2/7)))`
+  + Example is found here to confirm the answer really is ~88: https://towardsdatascience.com/entropy-how-decision-trees-make-decisions-2946b9c18c8
   + This is representive of the $-\sum P(x) \log2 P(x)$ equation.
