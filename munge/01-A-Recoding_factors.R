@@ -13,14 +13,16 @@ counties <- counties %>%
 # Create countries_for_join to lockdowns
 cfj <- countries %>% 
   group_by(administrative_area_level_1) %>% 
-  filter(date == max(date))
+  filter(date == max(date)) %>% 
+  ungroup()
 
 
 # Create a filtered lockdowns dataset while cleaning names
 lfj <- lockdowns %>% 
   clean_names() %>% 
   group_by(country_region) %>% 
-  filter(date == max(date))
+  filter(date == max(date)) %>% 
+  ungroup()
 
 # Join the two
 joined_lockedowns <- cfj %>% inner_join(lfj, by = c("administrative_area_level_1" = "country_region")) %>%
