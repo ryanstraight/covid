@@ -21,3 +21,8 @@ You can explore the project by doing the following:
 library('ProjectTemplate')
 load.project()
 ```
+
+Todo:
+
++ Adding governors and their political parties to explore as an outcome based on COVID-19 state predictors like school closings, etc
+  + https://raw.githubusercontent.com/CivilServiceUSA/us-governors/master/us-governors/data/us-governors.csv
