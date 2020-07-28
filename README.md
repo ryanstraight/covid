@@ -27,3 +27,5 @@ Notes:
 + Adding governors and their political parties to explore as an outcome based on COVID-19 state predictors like school closings, etc
   + https://raw.githubusercontent.com/CivilServiceUSA/us-governors/master/us-governors/data/us-governors.csv
 + Adding code chunks from external R scripts into an Rmd file: https://bookdown.org/yihui/rmarkdown-cookbook/read-chunk.html
++ R code for figuring out the entropy: `-((2/4)*log2(2/4) + (2/4)*log2(2/4))`
+  + This is representive of the $-\sum P(x) \log2 P(x)$ equation.
