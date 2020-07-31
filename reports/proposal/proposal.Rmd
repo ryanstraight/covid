@@ -25,7 +25,7 @@ abstract: |
   `r library(papaja)`Assignment submitted to MIS 545 Summer 2020 on `r Sys.Date()`. R packages and versions used in this document: `r cite_r("r-references.bib")`. Any $LaTeX$ is generated using the [LaTeX Equation Editor](https://latexeditor.lagrida.com/).
 
 #keywords          : "keywords"
-wordcount         : "X"
+wordcount         : "362"
 
 bibliography      : ["references.bib", "r-references.bib"]
 
@@ -57,23 +57,19 @@ knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
 ```
 
 
-Given the timeliness of COVID-19, the illness caused by the SARS-CoV2, and the considerable amount of tremendously granular data available about confirmed cases, school and business closings, travel restrictions, et cetera, this will be the main focus of the project. The main goal of this project is to determine what, if any, predictors for success and financial loss mitigation exist within the data avaialble.
+Given the timeliness of COVID-19^[COVID-19 is the illness caused by the SARS-CoV2 virus, not the virus, itself.] and the considerable amount of granular data available about confirmed cases, school and business closings, travel restrictions, et cetera, this will be the main focus of the project. The main goal of this project is to determine what, if any, predictors for success and financial loss mitigation exist within the data available.
 
 ## Business Value
 
-The potential financial hardship caused by school closings and resultant educational delays on the future workforce cannot be overstated. The amount of future earnings decreased by even a scant four months of higher educational closures might not seem detrimental but "the loss in marginal future earnings would be 2.5 percent per year over a student’s working life" [@vegas2020COVID19CostSchool]. Applied to the 76 million students and presuming a working-life of 45 years at an average annual income of \$53,490, the Brookings Institute estimates an annual loss of \$1,337 per student, resulting in a staggering \$2.5 trillion for those four months of lost education [-@vegas2020COVID19CostSchool].
+The potential financial hardship caused by school closings and resultant educational delays on the future workforce cannot be overstated. The amount of future earnings decreased by even a scant four months of higher educational closures might not seem detrimental but "the loss in marginal future earnings would be 2.5 percent per year over a student’s working life" [@psacharopoulos2020COVID19CostSchool]. Applied to the 76 million students and presuming a working-life of 45 years at an average annual income of \$53,490, the Brookings Institute estimates an annual loss of \$1,337 per student, resulting in a staggering \$2.5 trillion for those four months of lost education [-@psacharopoulos2020COVID19CostSchool].
 
 ## Data Source
 
-There is no shortage of sources for COVID-19 data. In an effort to ensure the data used in this project is up-to-date at time of publishing and will be consistently formatted throughout, the data will be pulled using the COVID19 package [@guidotti2020COVID19DataHub]. This data is combined with the "COVID-19 Lockdown dates by country" data set [@jcyzagCOVID19LockdownDates].
+There is no shortage of sources for COVID-19 data. In an effort to ensure the data used in this project is up-to-date at time of publishing and will be consistently formatted throughout, the data will be pulled using the COVID19 package [@guidotti2020COVID19DataHub]. This data is combined with the "COVID-19 Lockdown dates by country" data set [@jcyzag2020COVID19LockdownDates] and the list of states' governors and political party affiliation [@civilservices2020UnitedStatesGovernors].
 
 ## Data Mining Techniques
 
-TBD but will consist of:
-
-+ 3 different data mining techniques
-  + two predictive (decision tree, naive Bayes, SVM, neural network)
-  + one descriptive (cluster analysis, associate rule mining)
+While specific techniques are presumptive at this point given the draft stage of the current project, the identified statistical tests and techniques are clustering descriptive analysis, decision trees, and a naïve Bayesian classification. As the data is further analyzed and explored this may change.
 
 \newpage
 
